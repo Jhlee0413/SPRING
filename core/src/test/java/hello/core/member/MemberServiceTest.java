@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class MemberServiceTest {
 
+    private MemberRepository memberRepository;
     MemberService memberService = new MemberServiceImpl(memberRepository);
 
     @Test
